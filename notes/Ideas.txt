@@ -1,0 +1,11 @@
+Ludum Dare 44
+
+Your Life Is Currency
+
+#1 You are a wraith that flys around and eats souls, the more souls you eat the more health 
+have spend health to gain powers!
+
+#2 You run a Currency Exchange (Needs more)
+
+(Current Choice)
+#3 A rouge-lite where after you die you get to spend your life experinence at the start of your next playthough

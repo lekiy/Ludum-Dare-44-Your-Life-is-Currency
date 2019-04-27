@@ -1,0 +1,13 @@
+vel_x = 0;
+vel_y = 0;
+vel_z = 0;
+acc_x = 0;
+acc_y = 0;
+acc_z = 0;
+on_ground = true;
+grav = 10;
+frict_ground = 0.6;
+frict_air = 0.98;
+is_moving = false;
+acc_rate = 1;
+spd_max = 30;
