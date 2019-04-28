@@ -2,3 +2,4 @@
 
 
 scrHandleMovement();
+depth = -(y+z);
