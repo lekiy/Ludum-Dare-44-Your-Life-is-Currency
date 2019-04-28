@@ -4,9 +4,18 @@
     "mvc": "1.0",
     "name": "oSlime",
     "eventList": [
-        
+        {
+            "id": "85b92d7a-471a-4b53-b332-240271cf3129",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "0fce5a8f-cbda-4617-b7e8-50d626e0ac1a"
+        }
     ],
-    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "maskSpriteId": "98bc21d3-6908-44b1-8c0e-a50b1b41bc4b",
     "overriddenProperties": null,
     "parentObjectId": "3609de32-f711-479d-8e10-bc914b6b493e",
     "persistent": false,
@@ -24,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "fecd71d1-737b-44b9-9cf4-1f643d613235",
+    "spriteId": "3effcff4-ecde-4585-ad0b-36feb33636db",
     "visible": true
 }

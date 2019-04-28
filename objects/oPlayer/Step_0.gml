@@ -1,18 +1,27 @@
 /// @description 
 
+attack_time--;
+
 dir_v = keyboard_check(ord("S"))-keyboard_check(ord("W"));
-dir_h =  keyboard_check(ord("D"))-keyboard_check(ord("A"));
+dir_h = keyboard_check(ord("D"))-keyboard_check(ord("A"));
 
-if(dir_v != 0 || dir_h != 0){
-	var dir = point_direction(0, 0, dir_h, dir_v)
+if(mouse_check_button_pressed(mb_left) && attack_time <= 0){
+	is_attacking = true;
+}
 
-	acc_x = lengthdir_x(move_speed, dir);
-	acc_y = lengthdir_y(move_speed, dir);
-
+if(is_attacking){
+	current_state = player_state.attack;
+}else if(dir_v != 0 || dir_h != 0){
+	current_state = player_state.move;
 }else{
+	current_state = player_state.idle;
 	acc_x = 0;
 	acc_y = 0;
 }
+
+sprite_index = animation[current_state];
+script_execute(state_script[current_state]);
+
 // Inherit the parent event
 event_inherited();
 
