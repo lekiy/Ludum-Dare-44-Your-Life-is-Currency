@@ -7,8 +7,8 @@ if(attack_time <= 0){
 
 if(image_index > image_number-1){
 	
-	var dir = scrGetMouseDir(x, y);
-	var attack = instance_create_layer(x, y, "Instances", oSpellAttack);
+	var dir = scrGetMouseDir(x+4, y-16);
+	var attack = instance_create_layer(x+4, y-16, "Instances", oSpellAttack);
 	with(attack){
 		damage = other.damage;
 		knockback = other.knockback;
